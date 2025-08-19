@@ -1,0 +1,22 @@
+ai-knowledge-chatbot/
+│
+├── backend/
+│   ├── app.py                # Main Flask/FastAPI application
+│   ├── knowledge_base/       # Directory for stored knowledge
+│   ├── models.py             # AI model handling
+│   ├── database.py           # Database interactions
+│   └── requirements.txt      # Python dependencies
+│
+├── frontend/
+│   ├── public/               # Static files
+│   ├── src/
+│   │   ├── components/       # React/Vue components
+│   │   ├── App.js            # Main app component
+│   │   └── styles/           # CSS files
+│   └── package.json          # Frontend dependencies
+│
+├── scripts/
+│   └── import_knowledge.py   # Script for manual knowledge import
+│
+├── README.md                 # Project documentation
+└── .gitignore                # Files to ignore in version control
